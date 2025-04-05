@@ -1,4 +1,4 @@
-//Drone V1.0 Project created by Mhamdi Ghaith 
+//Drone V2.0 Project created by Mhamdi Ghaith 
 //facebook page: HardSoftRoboticsMh: https://www.facebook.com/profile.php?id=61574058525266
 //Github: ghaithmhamd: https://github.com/ghaithmhamd
 //All thanks to https://github.com/CarbonAeronautics https://www.youtube.com/@carbonaeronautics
