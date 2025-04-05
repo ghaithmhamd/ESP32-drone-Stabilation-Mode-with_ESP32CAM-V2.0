@@ -33,7 +33,7 @@
 
 - 🔗 **ESP32-CAM preview**: [YouTube video](https://youtu.be/JYchUapoqzc?si=Sv1O5FwJmP0YOA6_)  
 - 🎥 **Full flight test video**: [Facebook video](https://www.facebook.com/share/p/1HFidd3Syk/)  
-- 🎮 **Transmitter Code**: [GitHub - Radio Transmitter & Receiver](https://github.com/ghaithmhamd/Radio-transmitter-and-reciever)
+- 🎮 **Transmitter**: [GitHub - Radio Transmitter & Receiver](https://github.com/ghaithmhamd/Radio-transmitter-and-reciever)
 
 ---
 
