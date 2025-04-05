@@ -47,6 +47,40 @@
 
 ---
 
-## 📩 Contact
+## Installation & Setup
+1. Clone the repository.
+2. Upload the code to your **ESP32-S3-Zero** using **Arduino IDE**.
+3. Ensure proper sensor calibration before flight.
+4. Connect the transmitter (linked above) and test the response.
 
-For updates, questions, or to see live demos, visit the [Facebook page](https://www.facebook.com/profile.php?id=61574058525266&locale=fr_FR).
+## Notes
+- Ensure that the **IMU is properly mounted** to avoid drift.
+- The **PID parameters** might need tuning based on your drone's configuration.
+
+## References
+- [pratikphadte](https://www.youtube.com/@pratikphadte) 
+- [Carbon Aeronautics](https://youtube.com/@carbonaeronautics?si=-DZ1Sz5sgNruoJgR)
+
+## License
+
+HSRmh(HardSoftRoboticsMh) License
+
+Copyright (c) 2024 pratikPhadte
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
