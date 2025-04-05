@@ -8,8 +8,7 @@
 
 - **ESP32-S3-Zero** – Main flight controller  
 - **ESP32-CAM** – WiFi video streaming module  
-- **MPU6050** – IMU (accelerometer + gyroscope)  
-- **BMP280** – Barometric pressure sensor (altitude)  
+- **MPU6050** – IMU (accelerometer + gyroscope)   
 - **NRF24L01** – Wireless communication  
 - **4× ESCs + Brushless Motors** – Power system  
 - **3S LiPo Battery** – Power supply  
