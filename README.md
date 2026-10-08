@@ -2,7 +2,7 @@
 
 <img src="media/drone_real.jpg" alt="ESP32 stabilized quadcopter" width="70%"/>
 
-# 🚁 ESP32 Drone — Stabilize Mode with ESP32-CAM
+#  ESP32 Drone — Stabilize Mode with ESP32-CAM
 
 **A DIY quadcopter flown by an ESP32-S3-Zero, with Kalman-filtered attitude estimation, PID stabilization, NRF24L01 radio control and live FPV video from an ESP32-CAM.**
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This project is a complete quadcopter built from low-cost parts and written from scratch. The **ESP32-S3-Zero is the flight controller**: it reads the IMU, estimates the drone's attitude, runs the PID loops and drives the four ESCs. The **ESP32-CAM is a separate module that only streams video** over WiFi, so a camera or WiFi problem can never disturb the flight loop.
 
@@ -25,7 +25,7 @@ Original use case: lightweight aerial surveillance of green areas (for example f
 
 ---
 
-## 🎬 Flight Demo
+##  Flight Demo
 
 Left: the pilot's view of the flight. Right: the live view from the drone's ESP32-CAM.
 
@@ -34,12 +34,12 @@ Left: the pilot's view of the flight. Right: the live view from the drone's ESP3
 
 | | |
 |---|---|
-| 🎥 Full flight test | [Facebook video](https://www.facebook.com/share/p/1HFidd3Syk/) |
-| 📷 ESP32-CAM preview | [YouTube video](https://youtu.be/JYchUapoqzc?si=Sv1O5FwJmP0YOA6_) |
+|  Full flight test | [Facebook video](https://www.facebook.com/share/p/1HFidd3Syk/) |
+|  ESP32-CAM preview | [YouTube video](https://youtu.be/JYchUapoqzc?si=Sv1O5FwJmP0YOA6_) |
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ **PID stabilization** (Stabilize mode) on roll, pitch and yaw
 - ✅ **Kalman filter** fusing MPU6050 accelerometer and gyroscope data
@@ -50,7 +50,7 @@ Left: the pilot's view of the flight. Right: the live view from the drone's ESP3
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 flowchart LR
@@ -76,7 +76,7 @@ The control loop runs: **read IMU → Kalman filter → compare with the pilot's
 
 ---
 
-## 🛠️ Hardware
+##  Hardware
 
 <p align="center">
   <img src="media/hardware_real.jpg" alt="Hardware" width="48%"/>
@@ -101,7 +101,7 @@ The control loop runs: **read IMU → Kalman filter → compare with the pilot's
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Tools
 
@@ -129,7 +129,7 @@ The control loop runs: **read IMU → Kalman filter → compare with the pilot's
 
 ---
 
-## 🎛️ Tuning Notes
+##  Tuning Notes
 
 - Mount the IMU **rigidly and level**. Vibration or tilt shows up as drift.
 - Start with **P only**, raise it until the drone oscillates, then back off. Add D to damp oscillations and a small I to remove steady drift.
@@ -137,7 +137,7 @@ The control loop runs: **read IMU → Kalman filter → compare with the pilot's
 
 ---
 
-## 🛣️ Roadmap
+##  Roadmap
 
 - [ ] Vertical velocity fusion (MPU6050 Z-axis + BMP280)
 - [ ] GPS and waypoint navigation
@@ -147,14 +147,14 @@ The control loop runs: **read IMU → Kalman filter → compare with the pilot's
 
 ---
 
-## 📚 References & Credits
+##  References & Credits
 
 - [Pratik Phadte](https://www.youtube.com/@pratikphadte)
 - [Carbon Aeronautics](https://youtube.com/@carbonaeronautics)
 
 ---
 
-## 👤 Author
+##  Author
 
 **Ghaith Mhamdi** — Engineering student, École Polytechnique de Tunisie
 Robotics · Embedded Systems · FPGA · Autonomous Systems
